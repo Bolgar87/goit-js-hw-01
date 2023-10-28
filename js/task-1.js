@@ -1,4 +1,4 @@
-function makeTransaction (quantity, pricePerDroid) {
+function makeTransaction(quantity, pricePerDroid) {
   return `You ${quantity} ordered  droids worth ${quantity * pricePerDroid} credits!`;
 }
 
